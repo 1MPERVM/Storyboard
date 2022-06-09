@@ -51,23 +51,28 @@ let sevenimage = document.createElement("img");
 let ROW = document.getElementById("row");
 ROW.style.display = "flex";
 ROW.style.flexDirection = "row";
+ROW.style.alignItems = "flex-start";
 
 let ROW1 = document.getElementById("row2");
 ROW1.style.display = "flex";
 ROW1.style.flexDirection = "row";
+ROW1.style.alignItems = "flex-start";
 
 let ROW2 = document.getElementById("row3");
 ROW2.style.display = "flex";
 ROW2.style.flexDirection = "row";
+ROW2.style.alignItems = "flex-start";
 
 let COLUMN1 = document.getElementById("column");
 COLUMN1.style.display = "flex";
 COLUMN1.style.flexDirection = "column";
+COLUMN1.style.alignItems = "flex-start";
 
 
 let COLUMN2 = document.getElementById("column2");
 COLUMN2.style.display = "flex";
 COLUMN2.style.flexDirection = "column";
+COLUMN2.style.alignItems = "flex-start";
 
 
 row1.appendChild(firstImage);
